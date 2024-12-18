@@ -111,10 +111,28 @@ button{
     cursor: pointer;
 }
 
-@media only screen and (max-width:600px) {
+@media only screen and (max-width:600px){
+
     #box-main{
 
         background-color: lightcoral;
+        width: 300px;
+      
+    }
+    #header{
+        font-weight: 800;
+        font-size: 1.4rem;
+        background-color: rgb(178, 174, 174);
+        display: inline-block;
+        padding: 1.5%;
+        border-radius: 6px;
+        box-shadow: 2px 2px 3px black;
+
+
+    }
+    input{
+        width: 160px;
+
     }
 
 
