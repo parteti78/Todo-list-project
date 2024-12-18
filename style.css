@@ -1,0 +1,123 @@
+*{
+
+    box-sizing: border-box;
+    margin: 0%;
+    padding: 0%;
+
+}
+html,body{
+
+    height: 100%;
+    width: 100%;
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+   
+   
+}
+
+#box-main{
+
+    background-color: white;
+    height: auto ;
+    width: 400px ;
+    padding-top: 25px;
+    position: relative;
+    box-shadow: 2px 2px 2px rgb(255, 255, 255);
+    border-radius: 5px;
+    
+}
+
+#header{
+
+    font-weight: 900;
+    font-size: 1.9rem;
+    background-color: rgb(178, 174, 174);
+    display: inline-block;
+    padding: 2%;
+    border-radius: 10px;
+    box-shadow: 2px 2px 3px black;
+}
+
+#list-box{
+
+    margin: 40px 0px 0px 0px;
+
+}
+
+li{
+
+
+    color: rgb(0, 0, 0);
+    
+  
+}
+
+#oltag{
+    text-decoration: none;
+    list-style: none;
+    font-weight: 900;
+    font-size: 1.4rem;
+    
+  
+  margin: 2%;
+    
+}
+li{
+   margin-top: 3%;
+   margin-left: 12%;
+   border: 1px solid black;
+   height: 50px ;
+   width: 290px;
+   display: flex;
+   justify-content: space-around;
+   text-align: center;
+   align-items: center;
+}
+
+li>button{
+
+    background-color: rgb(198, 213, 198);
+    border: none;
+    font-weight: 900;
+    padding: 1%;
+    width: 90px;
+    border-radius :5px;
+    height: 40px;
+    font-size: 1.1rem;
+    cursor: pointer;
+}
+
+input{
+
+    margin-top: 10%;
+    height: 40px;
+    padding: 5%;
+    outline: none;
+    
+
+}
+
+button{
+    height:40px ;
+    width:  70px;
+    font-weight: 800;
+    background-color: rgb(198, 213, 198);
+    outline: none;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+@media only screen and (max-width:600px) {
+    #box-main{
+
+        background-color: lightcoral;
+    }
+
+
+
+    
+}
