@@ -50,7 +50,7 @@ html,body{
 li{
 
 
-    color: rgb(0, 0, 0);
+    color: rgb(46, 37, 37);
     
   
 }
@@ -68,13 +68,14 @@ li{
 li{
    margin-top: 3%;
    margin-left: 12%;
-   border: 1px solid black;
+   border: 1px solid rgb(38, 34, 34);
    height: 50px ;
    width: 290px;
    display: flex;
    justify-content: space-around;
    text-align: center;
    align-items: center;
+   overflow-x: auto;
 }
 
 li>button{
@@ -133,6 +134,17 @@ button{
     input{
         width: 160px;
 
+    }
+    #list-box{
+
+        margin: 40px 0px 0px 10px;
+    
+    }
+    li{
+        margin-left: -10px;
+        overflow-x: auto;
+        
+        
     }
 
 
